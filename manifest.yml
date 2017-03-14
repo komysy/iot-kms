@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-kms
+  host: iot-kms
+  disk_quota: 1024M
+  services:
+  - iot-kms-cloudantNoSQLDB
+  - iot-kms-iotf-service
